@@ -108,11 +108,11 @@ public class Movement_Character : MonoBehaviour
             if (Input.GetButtonDown("Jump") && groundedPlayer)
             {
                 StartCoroutine(JumpWait());
-                anim.SetBool("Jump", true);
+                anim.SetBool("Jump2", true);
             }
             else
             {
-                anim.SetBool("Jump", false);
+                anim.SetBool("Jump2", false);
             }
 
             //golpe
